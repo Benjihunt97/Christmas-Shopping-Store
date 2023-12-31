@@ -125,6 +125,7 @@ footer {
     grid-template-columns: 40% repeat(3, auto);
 
     padding: 40px;
+    overflow-x: hidden;
 }
 
 .footer-title {
