@@ -51,7 +51,7 @@
 /* smaller screen sizes */
 @media (max-width: 710px) {
     .promo-container {
-        grid-template-columns: 400px;
+        grid-template-columns: 350px;
         margin-block: 5rem;
     }
 }
