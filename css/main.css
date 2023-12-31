@@ -77,6 +77,7 @@ header {
     background: var(--clr-base-light);
     justify-content: space-between;
     padding: 20px;
+    overflow-x: hidden;
 }
 
 .logo-img {
