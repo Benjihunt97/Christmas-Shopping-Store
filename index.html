@@ -5,25 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- CSS files -->
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/promo.css">
 
-    <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://kit.fontawesome.com/e1428b0a9e.js" crossorigin="anonymous"></script>
-    <title>Benji's Chrismas Store</title>
+    <title>Benji's Christmas Store</title>
 </head>
 <body>
 
     <div class="container">
+        <!-- header-->
         <header>
             <div class="logo">
-
+                <img src="https://icodethis.com/images/iCodeMas/santa_hat.png" alt="" class="logo-img">
+                <h1 class="logo-title">iCodeMas</h1>
             </div>
             <nav>
-                <ul>
+                <ul class="main-list">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="featured.html">Featured</a></li>
-                    <li><a href="shop.html">Shop</a></li>
-                    <li><a href="faq.html">FAQs</a></li>
+                    <li><a href="products.html">Shop</a></li>
+                    <li><a href="faqs.html">FAQs</a></li>
                     <li>
                         <a href="cart.html">
                             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-shopping-bag cart" width="24" height="24"
@@ -36,10 +38,86 @@
                             </svg>
                         </a>
                     </li>
+
+                    <button class="close-menu">
+                        <i class="fa fa-close"></i>
+                    </button>
                 </ul>
             </nav>
+
+            <button class="open-menu">
+                <i class="fa fa-bars"></i>
+            </button>
         </header>
+
+        <!-- main container -->
+        <div class="content-container promo-container">
+            <div class="promo-card promo-collection">
+                <img src="https://icodethis.com/images/iCodeMas/promo_1.png">
+                <div class="promo-text">
+                    <div>
+                        <h3 class="promo-title">Christmas Collection</h3>
+                        <p class="promo-info">Shop collection now</p>
+                    </div>
+
+                    <button class="promo-btn collection-btn">
+                        <a href="products.html">
+                            <i class="fa fa-arrow-right"></i>
+                        </a>
+                    </button>
+                </div>
+            </div>
+
+            <div class="promo-card promo-gift-cards">
+                <img src="https://icodethis.com/images/iCodeMas/promo_2.png" alt="">
+                <div class="promo-text">
+                    <div>
+                        <h3 class="promo-title">Gift Cards</h3>
+                        <p class="promo-info">Share the spirit with our Gift Cards</p>
+                    </div>
+            
+                    <button class="promo-btn">
+                        Get Gift
+                        <i class="fa fa-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- foooter -->
+        <footer class="">
+        <div class="">
+            <h1 class="footer-title">iCodeMas</h1>
+            <p class="footer-info">At iCodeMas, we belive in spreading joy, creating memories and making every moment
+                magical. Embrace the psirit of iCodeMas and make your holidays merry and bright!</p>
+        </div>
+        
+        <ul class="footer-list">
+            <h1 class="footer-title">Products</h1>
+            <li>Cookies</li>
+            <li>Candels</li>
+            <li>Ornaments</li>
+            <li>Accessories</li>
+        </ul>
+        
+        <ul class="footer-list">
+            <h1 class="footer-title">Client</h1>
+            <li>Find a store</li>
+            <li>Newsletter</li>
+            <li>Cookies Policy</li>
+        </ul>
+        
+        <ul class="footer-list">
+            <h1 class="footer-title">About our company</h1>
+            <li>Return policy</li>
+            <li>Contact</li>
+        </ul>
+        
+        <p class="copyright">&copy;2023 iCodeThis. All rights Reserved</p>
+        </footer>
     </div>
-    
+
+
+    <script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
