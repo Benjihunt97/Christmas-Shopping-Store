@@ -182,4 +182,8 @@ footer {
         grid-template-columns: 100%;
         gap: 2rem;
     }
+
+    .footer-info {
+        width: 40ch;
+    }
 }
