@@ -157,7 +157,7 @@ footer {
 /* scren sizes for navbar and footer*/
 @media (max-width: 680px) {
     .main-list {
-        position: absolute;
+        position: fixed;
         right: -100%;
         top: 0;
 
