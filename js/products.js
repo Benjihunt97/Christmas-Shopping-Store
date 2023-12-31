@@ -93,4 +93,9 @@ $(document).ready(() => {
         $('.product-container').append(card);
     });
 
+    $('.filter-btn').click((e) => {
+        $(e.target).parent().css('background', '');
+        $(e.target).siblings('.fa-check').css('display','grid');
+    });
+
 });
